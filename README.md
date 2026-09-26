@@ -17,6 +17,23 @@ Private DNS blocklist for a Hisense Smart TV running VIDAA OS in Europe / German
 
 This list is made for a TV used mostly as a clean Smart TV screen for apps like YouTube and Netflix, without German live TV, HbbTV, Red Button, VIDAA Free channels, recommendations, promo tiles, banners, and other home-screen clutter.
 
+## Get the list
+
+Add the list as a blocklist URL: you get every future update on a filter refresh and there is
+nothing to download by hand.
+
+```text
+https://raw.githubusercontent.com/ipanalytics/Hisense-VIDAA-DNS-Clean-TV-Blocklist/main/Blocked_Domains_AdGuard.txt
+```
+
+AdGuard Home: **Filters → DNS blocklists → Add blocklist → Add a custom list**, paste the URL,
+name it `Hisense VIDAA`, save, then **Update filters**. Pi-hole and other DNS filters take the same
+URL; use [`Blocked_Domains.txt`](Blocked_Domains.txt) if your filter wants plain hostnames without AdGuard syntax.
+
+After a filter refresh the home screen stops loading ads, promo and recommendation tiles, VIDAA Free
+promos and telemetry, while YouTube and Netflix keep working. If something you need breaks, remove
+the list and refresh the filters — nothing on the TV is modified.
+
 ## Tested Environment
 
 - Region: Europe / Germany
