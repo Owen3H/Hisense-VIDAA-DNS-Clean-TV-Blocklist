@@ -125,7 +125,7 @@
 ||sttc-az-recommend-ui.vidaahub.com^
 !
 ! recommend-ui-eu: inferred European recommendation-UI backend for VIDAA Home.
-||recommend-ui-eu.vidaahub.com^
+!||recommend-ui-eu.vidaahub.com^
 !
 ! base-ai: shared VIDAA AI backend, likely used for recommendations, ranking, personalization, or automated UI functions.
 ||base-ai.vidaahub.com^
