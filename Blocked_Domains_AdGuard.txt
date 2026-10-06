@@ -101,31 +101,29 @@
 !
 ! recommendation-launcher: inferred alternative recommendation hostname for the launcher.
 ||recommendation-launcher.hismarttv.com^
-!
-! content-recommendation: inferred recommendation service for films, channels, and applications.
-||content-recommendation.hismarttv.com^
-!
-! api-recommendation: inferred general recommendation API.
-||api-recommendation.hismarttv.com^
-!
-! api-recommendation-eu: inferred European regional recommendation API.
-||api-recommendation-eu.hismarttv.com^
-!
-! api-recommendation-em: inferred recommendation API for the EM regional service group.
-||api-recommendation-em.hismarttv.com^
-!
 ! launcher-recommend: inferred launcher recommendation feed.
 ||launcher-recommend.hismarttv.com^
 !
+! content-recommendation: inferred recommendation service for films, channels, and applications.
+! ||content-recommendation.hismarttv.com^
+!
+! api-recommendation: inferred general recommendation API.
+! ||api-recommendation.hismarttv.com^
+!
+! api-recommendation-eu: inferred European regional recommendation API.
+! ||api-recommendation-eu.hismarttv.com^
+!
+! api-recommendation-em: inferred recommendation API for the EM regional service group.
+! ||api-recommendation-em.hismarttv.com^
+!
 ! detail-ui-eu: European UI metadata and detailed interface-content endpoint.
-||detail-ui-eu.vidaahub.com^
-
+! ||detail-ui-eu.vidaahub.com^
 !
 ! sttc-az-recommend-ui: static assets for VIDAA recommendation cards and recommendation UI.
 ||sttc-az-recommend-ui.vidaahub.com^
 !
 ! recommend-ui-eu: inferred European recommendation-UI backend for VIDAA Home.
-!||recommend-ui-eu.vidaahub.com^
+! ||recommend-ui-eu.vidaahub.com^
 !
 ! base-ai: shared VIDAA AI backend, likely used for recommendations, ranking, personalization, or automated UI functions.
 ||base-ai.vidaahub.com^
